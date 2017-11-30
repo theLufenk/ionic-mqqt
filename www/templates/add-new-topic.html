@@ -1,0 +1,16 @@
+<div>
+	<input type="text"   placeholder="Topic"  ng-model="data.topic"> <br/>  
+	<input type="text"   placeholder="Info" ng-model="data.info"> <br/> 
+	<input type="text"   placeholder="Image (Optional)"  ng-model="data.img"> <br/> 
+	<div class="list">
+		<label class="item item-input item-select">
+			<div class="input-label">
+				Type
+			</div>
+			<select ng-model="data.type" >
+				<option value='switch'>Switch</option>
+				<option value='thermostat'>Thermostat</option>
+			</select>
+		</label>
+	</div>
+</div>
